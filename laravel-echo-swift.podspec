@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "laravel-echo-swift"
+  s.module_name  = "LaravelEcho"
   s.version      = "0.0.1"
   s.summary      = "A short description of laravel-echo-swift."
 
