@@ -1,6 +1,6 @@
 import Foundation
 
-struct Echo {
+public struct Echo {
     var connector : Connector
     
     init(options: Options) {
