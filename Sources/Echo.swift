@@ -3,7 +3,7 @@ import Foundation
 public struct Echo {
     var connector : Connector
     
-    init(options: Options) {
+    public init(options: Options) {
         self.connector = ConnectorFactory.create(type: options.connector, options: options)
         self.connector.connect()
     }
