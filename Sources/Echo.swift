@@ -1,34 +1,32 @@
+import Foundation
 
 struct Echo {
-    var options : Any
-    let connector : Connector
+    var connector : Connector
     
-    init(options: Any) {
-        self.options = options
-        self.connector = nil
+    init(options: Options) {
+        self.connector = ConnectorFactory.create(type: options.connector, options: options)
+        self.connector.connect()
     }
-    
 }
 
 extension Echo {
-    
-    func listen(channel: String, event: String, callback: ()) -> Channel {
-        return connector.channel(channel: channel).listen(event: event, callback: callback)
+    mutating func listen(channel: String, event: String, callback: ()) -> Channel {
+        return connector.listen(channel: channel, event: event, callback: callback)
     }
     
-    func channel(channel: String) -> Channel {
-        return connector.channel(channel: channel)
+    mutating func channel(channel: String) -> Channel {
+        return connector.channel(name: channel)
     }
     
-    func privateChannel(channel: String) -> Channel{
-        return connector.privateChannel(channel: channel)
+    mutating func privateChannel(channel: String) -> Channel{
+        return connector.privateChannel(name: channel)
     }
     
-    func join(channel: String) -> PresenceChannel {
-        return connector.presenceChannel(channel: channel)
+    mutating func join(channel: String) -> PresenceChannel {
+        return connector.presenceChannel(name: channel)
     }
     
-    func leave(channel: String) {
+    mutating func leave(channel: String) {
         connector.leave(channel: channel)
     }
     

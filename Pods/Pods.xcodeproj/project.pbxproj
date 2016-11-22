@@ -1,0 +1,1868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009990CAC0EA7BB0010ECE8DE3557832 /* Pods-laravel-echo-swift-TVOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AFD82E9B6B13B8D292E14E40FCE41F /* Pods-laravel-echo-swift-TVOSTests-dummy.m */; };
+		01D83E05770D39356C5F8C6085B051A6 /* Pods-laravel-echo-swift-TVOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7DA3ED7B4147CD479802304456F98B6 /* Pods-laravel-echo-swift-TVOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		021AAD212999D2AC87CDB7467FEF7D20 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9AAB00463A63668DFB58735E2C612 /* SocketEngine.swift */; };
+		025D8D41E8C76F096E35BADF679E373C /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA477F83805A225AB04B374C401127A /* SocketEngineWebsocket.swift */; };
+		039A10B945178142A2637C7424AFE0BA /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20503829D68FA688856087D1FC1AC3 /* SocketEventHandler.swift */; };
+		06D6F7CCD70D76E2815ACB52FF72C351 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281E6245797652FC2639792DEF03F6A7 /* SocketEngineClient.swift */; };
+		06E0C93355389C5B6697ADE36AA7167F /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA330C7F8705F99E51E371177A1A8B0 /* SocketTypes.swift */; };
+		0904568C4AC0A7A308D9F7E45A17589A /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C67474039AE1ACC2D8B73DCC278BA1 /* SocketAnyEvent.swift */; };
+		0DC7C8C4398AF359DD6EF166434BD5A4 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281E6245797652FC2639792DEF03F6A7 /* SocketEngineClient.swift */; };
+		106255D91161D0CECB271E7A89C6BBFA /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B5F317E821911473721F59E0F5E2A /* SocketExtensions.swift */; };
+		123A0117F31F4C3386C26E388FBA9B73 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC885DAE31E5B2E883B81FB78812452 /* SocketIOClientConfiguration.swift */; };
+		142F4D9C867EF4B4D6AA336E4B10E0B0 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B24A13A7D29E911E3EC6512B34276 /* SocketIOClient.swift */; };
+		1491874D2394F2B198858DEDFE93C70E /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA477F83805A225AB04B374C401127A /* SocketEngineWebsocket.swift */; };
+		171E92903CBF9EDA088558E3D6223F29 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C923028E5F3C8D4BD3A368A4EF1CBA3 /* SocketParsable.swift */; };
+		17BF6FEB159BE9A3EABB8F975F806ECD /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF360746EACDC5752FCC0C72BEE9D8 /* SocketStringReader.swift */; };
+		1C750D95A12D55E2B3A182D4DA93F5C2 /* Pods-laravel-echo-swift-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5579F8ADFA415B9C30608C5004F9C324 /* Pods-laravel-echo-swift-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2031F7A7672890A597A3118197CB3BE6 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC44899F3659E099E9C5884CE11ACCA /* SocketPacket.swift */; };
+		2071016F5641B35DC6370CB67A611D9B /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99F8D26BA7E1F58D163CED3D9AFA42E /* SocketAckEmitter.swift */; };
+		240C0798E24920829C77F0D9F4472342 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384E31060DF5DABF451980A885F28B6 /* SocketIOClientSpec.swift */; };
+		25350C2B764E794A9A24E31109657B77 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B5F317E821911473721F59E0F5E2A /* SocketExtensions.swift */; };
+		27CBE654EAFE15DEEEA7A7114711E6CF /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BE62A3A1A7FDEE9187957C73A7BBD /* SocketEnginePollable.swift */; };
+		32837731665987BDD2DA7B1C0C6BB2A2 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7814D682B783643F8D9AFEA804584 /* WebSocket.swift */; };
+		33802441C364562291BD1308F9C61AE8 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510479A0EA2A7025F9D756343E7B3 /* SocketIOClientStatus.swift */; };
+		354EE18B7753F2F58828152862DBEDB7 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC44899F3659E099E9C5884CE11ACCA /* SocketPacket.swift */; };
+		36BF57BABAFD433DBCA14198507F9126 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA477F83805A225AB04B374C401127A /* SocketEngineWebsocket.swift */; };
+		39689A7D428E0EE310FC56D0DEB2756E /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7814D682B783643F8D9AFEA804584 /* WebSocket.swift */; };
+		3E4F73C39B77D8D25D25E5DE3E55FA2E /* Socket.IO-Client-Swift-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB82C6D16EA597E0D885AE5DBA10AAF1 /* Socket.IO-Client-Swift-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40FDE246CFBC060F51159799648D8D33 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB56E35108A1FCAA1F5604A02FFCDC5 /* Cocoa.framework */; };
+		41EE00E40B78B7D14C060FDC053C339F /* Pods-laravel-echo-swift-OSXTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DAA8BEDB7ADC7CC6AC8D742C4FE163 /* Pods-laravel-echo-swift-OSXTests-dummy.m */; };
+		4416936391A3A714C92E7A42C98893AF /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA330C7F8705F99E51E371177A1A8B0 /* SocketTypes.swift */; };
+		453DC95F1EAC2E0C397401D26BE090B0 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384E31060DF5DABF451980A885F28B6 /* SocketIOClientSpec.swift */; };
+		45CC3338632A862B6A0EB7780359F7CC /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384E31060DF5DABF451980A885F28B6 /* SocketIOClientSpec.swift */; };
+		467B6D7C1B00CCE7FC8E27E590270C81 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281E6245797652FC2639792DEF03F6A7 /* SocketEngineClient.swift */; };
+		485CA4F04BEF9753ED5A2120F7C73156 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42D18E133A4E2C47BCFE478705D199C /* SocketEnginePacketType.swift */; };
+		48C0120AA972DCD1F96FB250BC469B11 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069412B360F24539D22A3BD05A6DEF4 /* SocketLogger.swift */; };
+		51470F546AADDD9E9F504B2A0177D79A /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5B5F317E821911473721F59E0F5E2A /* SocketExtensions.swift */; };
+		525103F99C07C8895A7DD24A858996CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6067E1DFA43B974D7DB4D6923ACD8F7 /* Foundation.framework */; };
+		548E7D2F9AF33C212B3DE69121A83D75 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42D18E133A4E2C47BCFE478705D199C /* SocketEnginePacketType.swift */; };
+		58B99BF4D3B9296E5909E6ECA3D9187F /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C67474039AE1ACC2D8B73DCC278BA1 /* SocketAnyEvent.swift */; };
+		5961A6184D5927915FA2A3E4538C1276 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BE62A3A1A7FDEE9187957C73A7BBD /* SocketEnginePollable.swift */; };
+		5B05AB485C76637A0311E233C2382853 /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC0197AB21ADBE4A5F0E05A0A99681 /* SocketClientManager.swift */; };
+		5E8DBE5A1C62559411BD257E5A9AA7F8 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC44899F3659E099E9C5884CE11ACCA /* SocketPacket.swift */; };
+		5F55428FEED91C5D8EBDC2090A420511 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42D18E133A4E2C47BCFE478705D199C /* SocketEnginePacketType.swift */; };
+		6234DAE70DEA85027A08A1FBCFA3FB67 /* Pods-laravel-echo-swift-TVOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2BA7D4BA885E0A9EAA99EC83B064A5 /* Pods-laravel-echo-swift-TVOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		673814E045EC92EDE098EDD53892D770 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF360746EACDC5752FCC0C72BEE9D8 /* SocketStringReader.swift */; };
+		6918AF08CE551AF1ABB38A3C27D85FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6067E1DFA43B974D7DB4D6923ACD8F7 /* Foundation.framework */; };
+		699E3D4E922AEB9197B366A1BB13247C /* Pods-laravel-echo-swift-TVOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B5A7697EE6437E9F928ADA8EC1F7B8 /* Pods-laravel-echo-swift-TVOS-dummy.m */; };
+		6DEFAAF46FF92194AF0D3E5E326A8FCC /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05095F4167C900CC61425181CE46422 /* SocketIOClientOption.swift */; };
+		6F968F08BDA1CD99A6B96A92ECF69FB1 /* Socket.IO-Client-Swift-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BC85086BCE79C7DEF044283D66BC43 /* Socket.IO-Client-Swift-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74E82769A23DECC2A17DB9588A964749 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510479A0EA2A7025F9D756343E7B3 /* SocketIOClientStatus.swift */; };
+		770E5DC050CFAB5AD540DD5E3B3F3496 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB56E35108A1FCAA1F5604A02FFCDC5 /* Cocoa.framework */; };
+		7B7016A8A59AC3351729F6335D10041A /* Socket.IO-Client-Swift-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C277A24AA88B633E258896A54EBA0E7 /* Socket.IO-Client-Swift-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FABDCD06ABF5E844AD64B98930E8EDE /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E67AFFFCF8CF0B3867A9E3CBB7E04E2 /* SocketAckManager.swift */; };
+		86523174F86C05639454DB533C246856 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C67474039AE1ACC2D8B73DCC278BA1 /* SocketAnyEvent.swift */; };
+		89F095615A9D3BC83E076D0F47E60C01 /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC0197AB21ADBE4A5F0E05A0A99681 /* SocketClientManager.swift */; };
+		953F1C9E766248845FC2FD93064E9DFD /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BEF08B787B2B34D32FA5C583C2B52 /* SocketEngineSpec.swift */; };
+		95BFF1D6C8640B9D7B1F9B8EE90F737D /* Pods-laravel-echo-swift-iOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C7F7A0FCD840ADBB947A90877A5DFD /* Pods-laravel-echo-swift-iOSTests-dummy.m */; };
+		968654CAE0C77FD2A5DB1B999773D0CF /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05095F4167C900CC61425181CE46422 /* SocketIOClientOption.swift */; };
+		9B0559DC8467390F8E5E7070F33C8F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFABA59B64BE338C2AB3A99EF39C345 /* Foundation.framework */; };
+		9C7FF4AFEDC1A1A41B9BC42A3E89718A /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BE62A3A1A7FDEE9187957C73A7BBD /* SocketEnginePollable.swift */; };
+		9C956D6E2AC000557BDDDC9D1178A495 /* Pods-laravel-echo-swift-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCB07A0785EE30FB2777D3BD1A6DC5F /* Pods-laravel-echo-swift-OSX-dummy.m */; };
+		9DCE28C1B0BCE1C96ACABA3E6B4982CC /* Socket.IO-Client-Swift-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEBEF2A4D653950BF04980590B8ED20 /* Socket.IO-Client-Swift-iOS-dummy.m */; };
+		9FF02E6E4DD7BEBD1976E919EC7D07A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFABA59B64BE338C2AB3A99EF39C345 /* Foundation.framework */; };
+		A2D667B6657AE20775A04E94E4983C1D /* Socket.IO-Client-Swift-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F87539FE6B4ECB54A9FAFD1F3CA78FE /* Socket.IO-Client-Swift-tvOS-dummy.m */; };
+		A8506206367024C5EEC3C8CAF8A0FE0A /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C923028E5F3C8D4BD3A368A4EF1CBA3 /* SocketParsable.swift */; };
+		A88DC06736D82F3224E8C4D97909B8EB /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99F8D26BA7E1F58D163CED3D9AFA42E /* SocketAckEmitter.swift */; };
+		B41E7CF13AA02CF1497C419A9D37C81B /* Pods-laravel-echo-swift-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 658336353B3A0D25B154CAB6CE8EEDB3 /* Pods-laravel-echo-swift-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA8EC18AF70B9705AFF170C0D41E5503 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE7FCE5D8FD4D21E57850BE43E4662 /* SSLSecurity.swift */; };
+		C093192EE474A5AA330126F277AEAF2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6067E1DFA43B974D7DB4D6923ACD8F7 /* Foundation.framework */; };
+		C18FC73857C4140A287758E12D1E74FF /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9AAB00463A63668DFB58735E2C612 /* SocketEngine.swift */; };
+		C21CFBD4AFF4B268E736AE902615B605 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069412B360F24539D22A3BD05A6DEF4 /* SocketLogger.swift */; };
+		C46CFBFA9705E87A47313AA960E6D612 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20503829D68FA688856087D1FC1AC3 /* SocketEventHandler.swift */; };
+		C48AA2F7BB8D259980BA94EF453286C2 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B24A13A7D29E911E3EC6512B34276 /* SocketIOClient.swift */; };
+		C64B8F27A351D2FBA58AD341D6016A01 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BEF08B787B2B34D32FA5C583C2B52 /* SocketEngineSpec.swift */; };
+		C658BAB971AE18B027D1BAFDA2CCA97E /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC0197AB21ADBE4A5F0E05A0A99681 /* SocketClientManager.swift */; };
+		C98CFBA3F822586DD7E04D94F695C319 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA330C7F8705F99E51E371177A1A8B0 /* SocketTypes.swift */; };
+		CC55392379876D9C024AF68D86712955 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C923028E5F3C8D4BD3A368A4EF1CBA3 /* SocketParsable.swift */; };
+		CE38B67606DB4E9B1D3873CAE23E0215 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05095F4167C900CC61425181CE46422 /* SocketIOClientOption.swift */; };
+		CFF9973A6808DCEB344494362D7F2098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFABA59B64BE338C2AB3A99EF39C345 /* Foundation.framework */; };
+		D19447E60913A43C4826D99B601A7EDB /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E67AFFFCF8CF0B3867A9E3CBB7E04E2 /* SocketAckManager.swift */; };
+		D3554B27D3819DD531676DCF2A92F400 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7814D682B783643F8D9AFEA804584 /* WebSocket.swift */; };
+		D65C1199D44F37D959292E0E99C704C0 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF360746EACDC5752FCC0C72BEE9D8 /* SocketStringReader.swift */; };
+		D8EF6DA6E27EF77784C04CB865B91EB9 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC885DAE31E5B2E883B81FB78812452 /* SocketIOClientConfiguration.swift */; };
+		D9DF6EAC05AC904689921C15FBEAE5E4 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510479A0EA2A7025F9D756343E7B3 /* SocketIOClientStatus.swift */; };
+		DB84450A1B48E0796AE955033475EFCA /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E67AFFFCF8CF0B3867A9E3CBB7E04E2 /* SocketAckManager.swift */; };
+		E0B35A579733FE6551556BC14BCD0589 /* Socket.IO-Client-Swift-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B3DDE5F7F6319441FFC03A83BB4116 /* Socket.IO-Client-Swift-OSX-dummy.m */; };
+		E1B826321AEABC047085EECE1FC0051C /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99F8D26BA7E1F58D163CED3D9AFA42E /* SocketAckEmitter.swift */; };
+		E1EB43C94E93DEF71D24BBCD31831189 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BEF08B787B2B34D32FA5C583C2B52 /* SocketEngineSpec.swift */; };
+		E55AD87712775687215DE856516E249F /* Pods-laravel-echo-swift-OSXTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F69977DCE1FFE110815D05F5F13170D /* Pods-laravel-echo-swift-OSXTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E587D15B76D45A34769F51D5E18640CC /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347B24A13A7D29E911E3EC6512B34276 /* SocketIOClient.swift */; };
+		E932BFCDF5A5EA0C992B83B1CBAFA5CB /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE7FCE5D8FD4D21E57850BE43E4662 /* SSLSecurity.swift */; };
+		F1E32FD1CC07C9E8B56C076DD48F4F46 /* Pods-laravel-echo-swift-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E31C0507DA73D18AB5DBB6CE4A0828 /* Pods-laravel-echo-swift-iOS-dummy.m */; };
+		F9F021AAAB90285FE0D7FDB3A1561369 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069412B360F24539D22A3BD05A6DEF4 /* SocketLogger.swift */; };
+		F9F8039E02BEE2ACFB964E7A3E9CDA8A /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9AAB00463A63668DFB58735E2C612 /* SocketEngine.swift */; };
+		FAB5C30F9A6DA5317B7291FC423B6569 /* Pods-laravel-echo-swift-iOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 710D8825AF94E2C795A2DEEDC689BF43 /* Pods-laravel-echo-swift-iOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE792C09DF8B0CE1A9F64CEF9E5DEF1 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20503829D68FA688856087D1FC1AC3 /* SocketEventHandler.swift */; };
+		FD56C75B587762EF5F4966F98A762596 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB56E35108A1FCAA1F5604A02FFCDC5 /* Cocoa.framework */; };
+		FDD968AFFB2BD410A5217C86AF5631CD /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC885DAE31E5B2E883B81FB78812452 /* SocketIOClientConfiguration.swift */; };
+		FF4D872E5A1F900FD4DFDAED07F868FB /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE7FCE5D8FD4D21E57850BE43E4662 /* SSLSecurity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51A89DAD732DA129E4DEF58344D48790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A580AF473C578D29FE87CE250CDAA080;
+			remoteInfo = "Socket.IO-Client-Swift-tvOS";
+		};
+		5DDE5A71C1D5E230629824728402F8E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116D3F2746F447D77B84472665AAB04D;
+			remoteInfo = "Socket.IO-Client-Swift-iOS";
+		};
+		78D2C76BFA27D914EE2F6B3F3020D75E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F345E0804137F3C5E2326E547851418;
+			remoteInfo = "Socket.IO-Client-Swift-OSX";
+		};
+		9CE159D2FF455995409E4A73F37F4C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F345E0804137F3C5E2326E547851418;
+			remoteInfo = "Socket.IO-Client-Swift-OSX";
+		};
+		D2F0556D1690D65F423A7AA9A9A0ED26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116D3F2746F447D77B84472665AAB04D;
+			remoteInfo = "Socket.IO-Client-Swift-iOS";
+		};
+		F0D3FE081F3C55F66B02ECFF0A0193F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A580AF473C578D29FE87CE250CDAA080;
+			remoteInfo = "Socket.IO-Client-Swift-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0547335F55AD9D760F66FE32932513C9 /* Pods-laravel-echo-swift-TVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-TVOS.release.xcconfig"; sourceTree = "<group>"; };
+		058D2BF94C0B2E3E121A66B8B96E9C84 /* Pods_laravel_echo_swift_OSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_laravel_echo_swift_OSXTests.framework; path = "Pods-laravel-echo-swift-OSXTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		078014351889B25580A7022CCA4B5DF5 /* Pods-laravel-echo-swift-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		0C2AE150D2396A8A1E1EF383753CADF3 /* Pods-laravel-echo-swift-TVOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-laravel-echo-swift-TVOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EA86419AAF7F381F2F64E37EE1C49C8 /* Pods_laravel_echo_swift_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_laravel_echo_swift_iOSTests.framework; path = "Pods-laravel-echo-swift-iOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F69977DCE1FFE110815D05F5F13170D /* Pods-laravel-echo-swift-OSXTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-laravel-echo-swift-OSXTests-umbrella.h"; sourceTree = "<group>"; };
+		1462D3E3B1BA923CB3870A6E574613E6 /* Pods-laravel-echo-swift-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-laravel-echo-swift-OSX.modulemap"; sourceTree = "<group>"; };
+		167B56DE7A8993BADDB846061C30A90B /* Pods_laravel_echo_swift_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_laravel_echo_swift_OSX.framework; path = "Pods-laravel-echo-swift-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2FC66F06EF10A1C4B9595B49C88C78 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketIO.framework; path = "Socket.IO-Client-Swift-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C923028E5F3C8D4BD3A368A4EF1CBA3 /* SocketParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParsable.swift; path = Source/SocketParsable.swift; sourceTree = "<group>"; };
+		1EA330C7F8705F99E51E371177A1A8B0 /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = Source/SocketTypes.swift; sourceTree = "<group>"; };
+		1F87539FE6B4ECB54A9FAFD1F3CA78FE /* Socket.IO-Client-Swift-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Socket.IO-Client-Swift-tvOS-dummy.m"; path = "../Socket.IO-Client-Swift-tvOS/Socket.IO-Client-Swift-tvOS-dummy.m"; sourceTree = "<group>"; };
+		235947C7D019892FB2BBA727B912F5F8 /* Pods-laravel-echo-swift-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-laravel-echo-swift-iOS.modulemap"; sourceTree = "<group>"; };
+		24FAE900DF73D2299732A154F7E70A07 /* Socket.IO-Client-Swift-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Socket.IO-Client-Swift-iOS.xcconfig"; path = "../Socket.IO-Client-Swift-iOS/Socket.IO-Client-Swift-iOS.xcconfig"; sourceTree = "<group>"; };
+		281E6245797652FC2639792DEF03F6A7 /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = Source/SocketEngineClient.swift; sourceTree = "<group>"; };
+		2BBF360746EACDC5752FCC0C72BEE9D8 /* SocketStringReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketStringReader.swift; path = Source/SocketStringReader.swift; sourceTree = "<group>"; };
+		2BDDB8FB77FAE94BA0E142098F1C9261 /* Pods-laravel-echo-swift-TVOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-laravel-echo-swift-TVOSTests-resources.sh"; sourceTree = "<group>"; };
+		33AFD82E9B6B13B8D292E14E40FCE41F /* Pods-laravel-echo-swift-TVOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-laravel-echo-swift-TVOSTests-dummy.m"; sourceTree = "<group>"; };
+		347B24A13A7D29E911E3EC6512B34276 /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIOClient.swift; sourceTree = "<group>"; };
+		3C277A24AA88B633E258896A54EBA0E7 /* Socket.IO-Client-Swift-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-OSX-umbrella.h"; sourceTree = "<group>"; };
+		41FDC55A6A56EE8399AC189DDF0D5566 /* Pods-laravel-echo-swift-iOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-laravel-echo-swift-iOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		43E50AFCA43266A6F20C4162F4E1D97E /* Pods_laravel_echo_swift_TVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_laravel_echo_swift_TVOS.framework; path = "Pods-laravel-echo-swift-TVOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E619482F41CE848E241CD21820E2FA /* Pods-laravel-echo-swift-OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-laravel-echo-swift-OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46C67474039AE1ACC2D8B73DCC278BA1 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = Source/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		4B8829E84DE509B6447A79C13F533452 /* Pods-laravel-echo-swift-OSXTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-laravel-echo-swift-OSXTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B92308B0509213175BF8EF9909658CF /* Pods-laravel-echo-swift-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE9AAB00463A63668DFB58735E2C612 /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = Source/SocketEngine.swift; sourceTree = "<group>"; };
+		4E67AFFFCF8CF0B3867A9E3CBB7E04E2 /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = Source/SocketAckManager.swift; sourceTree = "<group>"; };
+		4EC44899F3659E099E9C5884CE11ACCA /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketPacket.swift; sourceTree = "<group>"; };
+		4F8E09F021A3A593206DB0BFDCE92173 /* Pods_laravel_echo_swift_TVOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_laravel_echo_swift_TVOSTests.framework; path = "Pods-laravel-echo-swift-TVOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5579F8ADFA415B9C30608C5004F9C324 /* Pods-laravel-echo-swift-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-laravel-echo-swift-iOS-umbrella.h"; sourceTree = "<group>"; };
+		5611F665BE488F83D6CD651257BA4428 /* Pods-laravel-echo-swift-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56B6A97B0631CF934B698AEB07279C01 /* Pods-laravel-echo-swift-TVOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-laravel-echo-swift-TVOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56E1D7B2FA300D087CAB7C8AB307EE48 /* Pods-laravel-echo-swift-TVOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-laravel-echo-swift-TVOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59FC0197AB21ADBE4A5F0E05A0A99681 /* SocketClientManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketClientManager.swift; path = Source/SocketClientManager.swift; sourceTree = "<group>"; };
+		5E0820CF9C2F2B9371FD33AF5C3D8DA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E7814D682B783643F8D9AFEA804584 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		652B465635B6AFA34752B889642D6E56 /* Pods-laravel-echo-swift-iOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-laravel-echo-swift-iOSTests-resources.sh"; sourceTree = "<group>"; };
+		657557827413DCAA737D347B09376143 /* Pods-laravel-echo-swift-OSXTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-laravel-echo-swift-OSXTests-frameworks.sh"; sourceTree = "<group>"; };
+		658336353B3A0D25B154CAB6CE8EEDB3 /* Pods-laravel-echo-swift-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-laravel-echo-swift-OSX-umbrella.h"; sourceTree = "<group>"; };
+		681A90BFA42419F4B9FE044F8689CF1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690BEF08B787B2B34D32FA5C583C2B52 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = Source/SocketEngineSpec.swift; sourceTree = "<group>"; };
+		6B9510479A0EA2A7025F9D756343E7B3 /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientStatus.swift; path = Source/SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		6BFABA59B64BE338C2AB3A99EF39C345 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		710D8825AF94E2C795A2DEEDC689BF43 /* Pods-laravel-echo-swift-iOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-laravel-echo-swift-iOSTests-umbrella.h"; sourceTree = "<group>"; };
+		720BE62A3A1A7FDEE9187957C73A7BBD /* SocketEnginePollable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = Source/SocketEnginePollable.swift; sourceTree = "<group>"; };
+		729989FF3E9F383BCB6E7E438F6A3C01 /* Socket.IO-Client-Swift-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Socket.IO-Client-Swift-iOS.modulemap"; path = "../Socket.IO-Client-Swift-iOS/Socket.IO-Client-Swift-iOS.modulemap"; sourceTree = "<group>"; };
+		7384E31060DF5DABF451980A885F28B6 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientSpec.swift; path = Source/SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		73DF639BBBA943C3F573A3CCFD8A25DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769AD61073B9EAAC9CD6013468260180 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C7F7A0FCD840ADBB947A90877A5DFD /* Pods-laravel-echo-swift-iOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-laravel-echo-swift-iOSTests-dummy.m"; sourceTree = "<group>"; };
+		7A193BBE838F5F43AFBD1895700481B1 /* Pods-laravel-echo-swift-OSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-laravel-echo-swift-OSX-resources.sh"; sourceTree = "<group>"; };
+		7AC310AF6E28D49B5D656DFD34001988 /* Socket.IO-Client-Swift-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Socket.IO-Client-Swift-tvOS.modulemap"; path = "../Socket.IO-Client-Swift-tvOS/Socket.IO-Client-Swift-tvOS.modulemap"; sourceTree = "<group>"; };
+		7B5B5F317E821911473721F59E0F5E2A /* SocketExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = Source/SocketExtensions.swift; sourceTree = "<group>"; };
+		7EC34454541D624AA4A984046E3FD5B8 /* Socket.IO-Client-Swift-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-OSX-prefix.pch"; sourceTree = "<group>"; };
+		8036D1F5E3E3D2AB5D07CDC621D2A58E /* Pods-laravel-echo-swift-OSXTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-laravel-echo-swift-OSXTests-resources.sh"; sourceTree = "<group>"; };
+		8069412B360F24539D22A3BD05A6DEF4 /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = Source/SocketLogger.swift; sourceTree = "<group>"; };
+		80F3248DC0FB40185B3A00BFC74142C6 /* Pods-laravel-echo-swift-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		81585CCBC57F909A15A370C97B4E85CB /* Pods-laravel-echo-swift-iOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-laravel-echo-swift-iOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82DAA8BEDB7ADC7CC6AC8D742C4FE163 /* Pods-laravel-echo-swift-OSXTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-laravel-echo-swift-OSXTests-dummy.m"; sourceTree = "<group>"; };
+		86504E12182FD346F93B6AF660E3DEB7 /* Pods-laravel-echo-swift-TVOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-laravel-echo-swift-TVOS.modulemap"; sourceTree = "<group>"; };
+		86A8377671A7CDA06338B998F5458DD6 /* Pods-laravel-echo-swift-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8883C60C9EA337F91F1A94EB2118DFFD /* Pods-laravel-echo-swift-TVOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-laravel-echo-swift-TVOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		8B224019F39E7B32FC642E65E58E13C8 /* Pods-laravel-echo-swift-TVOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-TVOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C90E195A92752DAC941756330447A4E /* Pods-laravel-echo-swift-OSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-OSXTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DDE21DD1759261486867B523E1AEBE9 /* Pods-laravel-echo-swift-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-laravel-echo-swift-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9540477995824BB1225199B3EBB4210E /* Pods-laravel-echo-swift-OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-laravel-echo-swift-OSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		9685297F5D0DC4D44BBA05C77A93CC63 /* Pods-laravel-echo-swift-TVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-TVOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9728F4F6C65F3B213F248C651EDF2FF8 /* Socket.IO-Client-Swift-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift-OSX.xcconfig"; sourceTree = "<group>"; };
+		9D0CE77BF3324FDFB6F9FA82818DA4BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Socket.IO-Client-Swift-tvOS/Info.plist"; sourceTree = "<group>"; };
+		9DC885DAE31E5B2E883B81FB78812452 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientConfiguration.swift; path = Source/SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
+		9EEBEF2A4D653950BF04980590B8ED20 /* Socket.IO-Client-Swift-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Socket.IO-Client-Swift-iOS-dummy.m"; path = "../Socket.IO-Client-Swift-iOS/Socket.IO-Client-Swift-iOS-dummy.m"; sourceTree = "<group>"; };
+		A1A3B4C12838CB2B4323312DA16A43F3 /* Pods-laravel-echo-swift-OSXTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-laravel-echo-swift-OSXTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2CC71327022973A34E12DBD802A75F5 /* Pods-laravel-echo-swift-TVOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-TVOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4AC4AEA8159472A00C1135D91DA7A71 /* Pods-laravel-echo-swift-TVOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-laravel-echo-swift-TVOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		A706AFCBAC1CAD42DFCC3A435580DA32 /* Socket.IO-Client-Swift-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Socket.IO-Client-Swift-iOS-prefix.pch"; path = "../Socket.IO-Client-Swift-iOS/Socket.IO-Client-Swift-iOS-prefix.pch"; sourceTree = "<group>"; };
+		A7C69ACA6054AD8F8CA76F79DFFCD896 /* Socket.IO-Client-Swift-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Socket.IO-Client-Swift-tvOS-prefix.pch"; path = "../Socket.IO-Client-Swift-tvOS/Socket.IO-Client-Swift-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		A7DE7FCE5D8FD4D21E57850BE43E4662 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		AB82C6D16EA597E0D885AE5DBA10AAF1 /* Socket.IO-Client-Swift-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Socket.IO-Client-Swift-iOS-umbrella.h"; path = "../Socket.IO-Client-Swift-iOS/Socket.IO-Client-Swift-iOS-umbrella.h"; sourceTree = "<group>"; };
+		AEE403151FAB4EDADC0127AF520C9C33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05095F4167C900CC61425181CE46422 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = Source/SocketIOClientOption.swift; sourceTree = "<group>"; };
+		B42D18E133A4E2C47BCFE478705D199C /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = Source/SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		B72F1EF86DA6F6428C8476528EBC2D14 /* Socket.IO-Client-Swift-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Socket.IO-Client-Swift-OSX.modulemap"; sourceTree = "<group>"; };
+		B99F8D26BA7E1F58D163CED3D9AFA42E /* SocketAckEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = Source/SocketAckEmitter.swift; sourceTree = "<group>"; };
+		BB753018ACDA693CDB27637CA316A4E3 /* Socket.IO-Client-Swift-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Socket.IO-Client-Swift-tvOS.xcconfig"; path = "../Socket.IO-Client-Swift-tvOS/Socket.IO-Client-Swift-tvOS.xcconfig"; sourceTree = "<group>"; };
+		BE20503829D68FA688856087D1FC1AC3 /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = Source/SocketEventHandler.swift; sourceTree = "<group>"; };
+		C023BE39B1DC8B8B0444483D4739169A /* Pods-laravel-echo-swift-TVOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-laravel-echo-swift-TVOS-resources.sh"; sourceTree = "<group>"; };
+		C0BC85086BCE79C7DEF044283D66BC43 /* Socket.IO-Client-Swift-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Socket.IO-Client-Swift-tvOS-umbrella.h"; path = "../Socket.IO-Client-Swift-tvOS/Socket.IO-Client-Swift-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		C55A1A3E31D5332B50EF1C6AF3751AEC /* Pods-laravel-echo-swift-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-laravel-echo-swift-iOS-resources.sh"; sourceTree = "<group>"; };
+		C804D8CB3EE5B33F1B803E4347000837 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketIO.framework; path = "Socket.IO-Client-Swift-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA477F83805A225AB04B374C401127A /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = Source/SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		CD27A2CF5FD3FE1B7455465EA88D0FAA /* Pods-laravel-echo-swift-TVOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-laravel-echo-swift-TVOSTests.modulemap"; sourceTree = "<group>"; };
+		CFB56E35108A1FCAA1F5604A02FFCDC5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		D5B5A7697EE6437E9F928ADA8EC1F7B8 /* Pods-laravel-echo-swift-TVOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-laravel-echo-swift-TVOS-dummy.m"; sourceTree = "<group>"; };
+		D6067E1DFA43B974D7DB4D6923ACD8F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D65C8DA62C9CE3AF05C6431F5F0BADBA /* Pods-laravel-echo-swift-iOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-laravel-echo-swift-iOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9E31C0507DA73D18AB5DBB6CE4A0828 /* Pods-laravel-echo-swift-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-laravel-echo-swift-iOS-dummy.m"; sourceTree = "<group>"; };
+		DAA39C9FFE887863F376E1560900FC2F /* Pods-laravel-echo-swift-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-laravel-echo-swift-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB0A812ADB534E176AE6A3C1C617E888 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCB07A0785EE30FB2777D3BD1A6DC5F /* Pods-laravel-echo-swift-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-laravel-echo-swift-OSX-dummy.m"; sourceTree = "<group>"; };
+		E431787D977F6C19D298422323850282 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82FAE9D2B629DB9D555A3F5F304D30D /* Pods-laravel-echo-swift-OSXTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-laravel-echo-swift-OSXTests.modulemap"; sourceTree = "<group>"; };
+		E8EA379D245E41F16F011A7CCABDA1AA /* Pods-laravel-echo-swift-iOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-laravel-echo-swift-iOSTests.modulemap"; sourceTree = "<group>"; };
+		E9E9C64439318B72F2891765BFA4296F /* Pods-laravel-echo-swift-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		EADF28C56A0DA9378F7C8DB941A20136 /* Pods-laravel-echo-swift-OSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-laravel-echo-swift-OSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB320F07426B3C51EF42F8CEF23DDA83 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketIO.framework; path = "Socket.IO-Client-Swift-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3620BE69A36C4664F9106C0AD374576 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Socket.IO-Client-Swift-iOS/Info.plist"; sourceTree = "<group>"; };
+		F5B3DDE5F7F6319441FFC03A83BB4116 /* Socket.IO-Client-Swift-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-OSX-dummy.m"; sourceTree = "<group>"; };
+		F7DA3ED7B4147CD479802304456F98B6 /* Pods-laravel-echo-swift-TVOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-laravel-echo-swift-TVOS-umbrella.h"; sourceTree = "<group>"; };
+		FA2BA7D4BA885E0A9EAA99EC83B064A5 /* Pods-laravel-echo-swift-TVOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-laravel-echo-swift-TVOSTests-umbrella.h"; sourceTree = "<group>"; };
+		FD988F78334CBD2BA6281ABB14B5DBB2 /* Pods_laravel_echo_swift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_laravel_echo_swift_iOS.framework; path = "Pods-laravel-echo-swift-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B9BFADC4B22C7F001E786FF02120250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6918AF08CE551AF1ABB38A3C27D85FD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE537CFC3E7309B8F769E09D584EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD56C75B587762EF5F4966F98A762596 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677DA4DFBB943199DBD805A5C12B2905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF02E6E4DD7BEBD1976E919EC7D07A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9DE9872E82459665B548EEC289AC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FDE246CFBC060F51159799648D8D33 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C2EDB1D09C2266214D587C613FE6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF9973A6808DCEB344494362D7F2098 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8207598A4A3F274A6AB31A82BB4FB7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C093192EE474A5AA330126F277AEAF2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C0E4A4D38C0EA6A90F8434F52E3BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0559DC8467390F8E5E7070F33C8F50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96BEB12D5F4FA5E92B23C0AEB924822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525103F99C07C8895A7DD24A858996CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FE6B64C46ADE9B50644A530E5BAC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770E5DC050CFAB5AD540DD5E3B3F3496 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C66CB13A55B8FBC80628A2B518EC8BC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFC25D9E611368A051214B8C94F355F1 /* Pods-laravel-echo-swift-iOS */,
+				4DD65FD46C5416EB42DC38FEDAF9704E /* Pods-laravel-echo-swift-iOSTests */,
+				14CE56E98E3AC8B3FAF2231CEF722A9A /* Pods-laravel-echo-swift-OSX */,
+				C8F46638D9A5ED5F91B96D52511B8EAE /* Pods-laravel-echo-swift-OSXTests */,
+				67677C8830774F16E08C899158BA1ABC /* Pods-laravel-echo-swift-TVOS */,
+				C9F3ADAA65DE94CD2EED18C55D5498C6 /* Pods-laravel-echo-swift-TVOSTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14CE56E98E3AC8B3FAF2231CEF722A9A /* Pods-laravel-echo-swift-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				73DF639BBBA943C3F573A3CCFD8A25DD /* Info.plist */,
+				1462D3E3B1BA923CB3870A6E574613E6 /* Pods-laravel-echo-swift-OSX.modulemap */,
+				44E619482F41CE848E241CD21820E2FA /* Pods-laravel-echo-swift-OSX-acknowledgements.markdown */,
+				9540477995824BB1225199B3EBB4210E /* Pods-laravel-echo-swift-OSX-acknowledgements.plist */,
+				DBCB07A0785EE30FB2777D3BD1A6DC5F /* Pods-laravel-echo-swift-OSX-dummy.m */,
+				7A193BBE838F5F43AFBD1895700481B1 /* Pods-laravel-echo-swift-OSX-resources.sh */,
+				658336353B3A0D25B154CAB6CE8EEDB3 /* Pods-laravel-echo-swift-OSX-umbrella.h */,
+				4B92308B0509213175BF8EF9909658CF /* Pods-laravel-echo-swift-OSX.debug.xcconfig */,
+				E9E9C64439318B72F2891765BFA4296F /* Pods-laravel-echo-swift-OSX.release.xcconfig */,
+			);
+			name = "Pods-laravel-echo-swift-OSX";
+			path = "Target Support Files/Pods-laravel-echo-swift-OSX";
+			sourceTree = "<group>";
+		};
+		22C82E67CB9CD5CDB9C4B57CDAE6F2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD988F78334CBD2BA6281ABB14B5DBB2 /* Pods_laravel_echo_swift_iOS.framework */,
+				0EA86419AAF7F381F2F64E37EE1C49C8 /* Pods_laravel_echo_swift_iOSTests.framework */,
+				167B56DE7A8993BADDB846061C30A90B /* Pods_laravel_echo_swift_OSX.framework */,
+				058D2BF94C0B2E3E121A66B8B96E9C84 /* Pods_laravel_echo_swift_OSXTests.framework */,
+				43E50AFCA43266A6F20C4162F4E1D97E /* Pods_laravel_echo_swift_TVOS.framework */,
+				4F8E09F021A3A593206DB0BFDCE92173 /* Pods_laravel_echo_swift_TVOSTests.framework */,
+				EB320F07426B3C51EF42F8CEF23DDA83 /* SocketIO.framework */,
+				1A2FC66F06EF10A1C4B9595B49C88C78 /* SocketIO.framework */,
+				C804D8CB3EE5B33F1B803E4347000837 /* SocketIO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD65FD46C5416EB42DC38FEDAF9704E /* Pods-laravel-echo-swift-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E0820CF9C2F2B9371FD33AF5C3D8DA2 /* Info.plist */,
+				E8EA379D245E41F16F011A7CCABDA1AA /* Pods-laravel-echo-swift-iOSTests.modulemap */,
+				81585CCBC57F909A15A370C97B4E85CB /* Pods-laravel-echo-swift-iOSTests-acknowledgements.markdown */,
+				D65C8DA62C9CE3AF05C6431F5F0BADBA /* Pods-laravel-echo-swift-iOSTests-acknowledgements.plist */,
+				76C7F7A0FCD840ADBB947A90877A5DFD /* Pods-laravel-echo-swift-iOSTests-dummy.m */,
+				41FDC55A6A56EE8399AC189DDF0D5566 /* Pods-laravel-echo-swift-iOSTests-frameworks.sh */,
+				652B465635B6AFA34752B889642D6E56 /* Pods-laravel-echo-swift-iOSTests-resources.sh */,
+				710D8825AF94E2C795A2DEEDC689BF43 /* Pods-laravel-echo-swift-iOSTests-umbrella.h */,
+				5611F665BE488F83D6CD651257BA4428 /* Pods-laravel-echo-swift-iOSTests.debug.xcconfig */,
+				078014351889B25580A7022CCA4B5DF5 /* Pods-laravel-echo-swift-iOSTests.release.xcconfig */,
+			);
+			name = "Pods-laravel-echo-swift-iOSTests";
+			path = "Target Support Files/Pods-laravel-echo-swift-iOSTests";
+			sourceTree = "<group>";
+		};
+		4ED4D125C770495764DB12CA29A5C515 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				6BFABA59B64BE338C2AB3A99EF39C345 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		56FC8954006B1141111A205386DF06CA /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				CFB56E35108A1FCAA1F5604A02FFCDC5 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		67677C8830774F16E08C899158BA1ABC /* Pods-laravel-echo-swift-TVOS */ = {
+			isa = PBXGroup;
+			children = (
+				681A90BFA42419F4B9FE044F8689CF1B /* Info.plist */,
+				86504E12182FD346F93B6AF660E3DEB7 /* Pods-laravel-echo-swift-TVOS.modulemap */,
+				56B6A97B0631CF934B698AEB07279C01 /* Pods-laravel-echo-swift-TVOS-acknowledgements.markdown */,
+				A4AC4AEA8159472A00C1135D91DA7A71 /* Pods-laravel-echo-swift-TVOS-acknowledgements.plist */,
+				D5B5A7697EE6437E9F928ADA8EC1F7B8 /* Pods-laravel-echo-swift-TVOS-dummy.m */,
+				C023BE39B1DC8B8B0444483D4739169A /* Pods-laravel-echo-swift-TVOS-resources.sh */,
+				F7DA3ED7B4147CD479802304456F98B6 /* Pods-laravel-echo-swift-TVOS-umbrella.h */,
+				9685297F5D0DC4D44BBA05C77A93CC63 /* Pods-laravel-echo-swift-TVOS.debug.xcconfig */,
+				0547335F55AD9D760F66FE32932513C9 /* Pods-laravel-echo-swift-TVOS.release.xcconfig */,
+			);
+			name = "Pods-laravel-echo-swift-TVOS";
+			path = "Target Support Files/Pods-laravel-echo-swift-TVOS";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E9474CE87C6AA9A851AEC24006206CAA /* Frameworks */,
+				87AC66C613B2A233B3C94B7B15C485E3 /* Pods */,
+				22C82E67CB9CD5CDB9C4B57CDAE6F2BF /* Products */,
+				0C66CB13A55B8FBC80628A2B518EC8BC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87AC66C613B2A233B3C94B7B15C485E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE6726969F945074265CA5311CB0DCAE /* Socket.IO-Client-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DEED9657B08840A842EE33B3670DAB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3620BE69A36C4664F9106C0AD374576 /* Info.plist */,
+				E431787D977F6C19D298422323850282 /* Info.plist */,
+				9D0CE77BF3324FDFB6F9FA82818DA4BF /* Info.plist */,
+				729989FF3E9F383BCB6E7E438F6A3C01 /* Socket.IO-Client-Swift-iOS.modulemap */,
+				24FAE900DF73D2299732A154F7E70A07 /* Socket.IO-Client-Swift-iOS.xcconfig */,
+				9EEBEF2A4D653950BF04980590B8ED20 /* Socket.IO-Client-Swift-iOS-dummy.m */,
+				A706AFCBAC1CAD42DFCC3A435580DA32 /* Socket.IO-Client-Swift-iOS-prefix.pch */,
+				AB82C6D16EA597E0D885AE5DBA10AAF1 /* Socket.IO-Client-Swift-iOS-umbrella.h */,
+				B72F1EF86DA6F6428C8476528EBC2D14 /* Socket.IO-Client-Swift-OSX.modulemap */,
+				9728F4F6C65F3B213F248C651EDF2FF8 /* Socket.IO-Client-Swift-OSX.xcconfig */,
+				F5B3DDE5F7F6319441FFC03A83BB4116 /* Socket.IO-Client-Swift-OSX-dummy.m */,
+				7EC34454541D624AA4A984046E3FD5B8 /* Socket.IO-Client-Swift-OSX-prefix.pch */,
+				3C277A24AA88B633E258896A54EBA0E7 /* Socket.IO-Client-Swift-OSX-umbrella.h */,
+				7AC310AF6E28D49B5D656DFD34001988 /* Socket.IO-Client-Swift-tvOS.modulemap */,
+				BB753018ACDA693CDB27637CA316A4E3 /* Socket.IO-Client-Swift-tvOS.xcconfig */,
+				1F87539FE6B4ECB54A9FAFD1F3CA78FE /* Socket.IO-Client-Swift-tvOS-dummy.m */,
+				A7C69ACA6054AD8F8CA76F79DFFCD896 /* Socket.IO-Client-Swift-tvOS-prefix.pch */,
+				C0BC85086BCE79C7DEF044283D66BC43 /* Socket.IO-Client-Swift-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Socket.IO-Client-Swift-OSX";
+			sourceTree = "<group>";
+		};
+		AE6726969F945074265CA5311CB0DCAE /* Socket.IO-Client-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B99F8D26BA7E1F58D163CED3D9AFA42E /* SocketAckEmitter.swift */,
+				4E67AFFFCF8CF0B3867A9E3CBB7E04E2 /* SocketAckManager.swift */,
+				46C67474039AE1ACC2D8B73DCC278BA1 /* SocketAnyEvent.swift */,
+				59FC0197AB21ADBE4A5F0E05A0A99681 /* SocketClientManager.swift */,
+				4CE9AAB00463A63668DFB58735E2C612 /* SocketEngine.swift */,
+				281E6245797652FC2639792DEF03F6A7 /* SocketEngineClient.swift */,
+				B42D18E133A4E2C47BCFE478705D199C /* SocketEnginePacketType.swift */,
+				720BE62A3A1A7FDEE9187957C73A7BBD /* SocketEnginePollable.swift */,
+				690BEF08B787B2B34D32FA5C583C2B52 /* SocketEngineSpec.swift */,
+				CBA477F83805A225AB04B374C401127A /* SocketEngineWebsocket.swift */,
+				BE20503829D68FA688856087D1FC1AC3 /* SocketEventHandler.swift */,
+				7B5B5F317E821911473721F59E0F5E2A /* SocketExtensions.swift */,
+				347B24A13A7D29E911E3EC6512B34276 /* SocketIOClient.swift */,
+				9DC885DAE31E5B2E883B81FB78812452 /* SocketIOClientConfiguration.swift */,
+				B05095F4167C900CC61425181CE46422 /* SocketIOClientOption.swift */,
+				7384E31060DF5DABF451980A885F28B6 /* SocketIOClientSpec.swift */,
+				6B9510479A0EA2A7025F9D756343E7B3 /* SocketIOClientStatus.swift */,
+				8069412B360F24539D22A3BD05A6DEF4 /* SocketLogger.swift */,
+				4EC44899F3659E099E9C5884CE11ACCA /* SocketPacket.swift */,
+				1C923028E5F3C8D4BD3A368A4EF1CBA3 /* SocketParsable.swift */,
+				2BBF360746EACDC5752FCC0C72BEE9D8 /* SocketStringReader.swift */,
+				1EA330C7F8705F99E51E371177A1A8B0 /* SocketTypes.swift */,
+				A7DE7FCE5D8FD4D21E57850BE43E4662 /* SSLSecurity.swift */,
+				62E7814D682B783643F8D9AFEA804584 /* WebSocket.swift */,
+				9DEED9657B08840A842EE33B3670DAB8 /* Support Files */,
+			);
+			name = "Socket.IO-Client-Swift";
+			path = "Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		C69D6C9B164079D9BD1746B4FB048311 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6067E1DFA43B974D7DB4D6923ACD8F7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8F46638D9A5ED5F91B96D52511B8EAE /* Pods-laravel-echo-swift-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A812ADB534E176AE6A3C1C617E888 /* Info.plist */,
+				E82FAE9D2B629DB9D555A3F5F304D30D /* Pods-laravel-echo-swift-OSXTests.modulemap */,
+				4B8829E84DE509B6447A79C13F533452 /* Pods-laravel-echo-swift-OSXTests-acknowledgements.markdown */,
+				A1A3B4C12838CB2B4323312DA16A43F3 /* Pods-laravel-echo-swift-OSXTests-acknowledgements.plist */,
+				82DAA8BEDB7ADC7CC6AC8D742C4FE163 /* Pods-laravel-echo-swift-OSXTests-dummy.m */,
+				657557827413DCAA737D347B09376143 /* Pods-laravel-echo-swift-OSXTests-frameworks.sh */,
+				8036D1F5E3E3D2AB5D07CDC621D2A58E /* Pods-laravel-echo-swift-OSXTests-resources.sh */,
+				0F69977DCE1FFE110815D05F5F13170D /* Pods-laravel-echo-swift-OSXTests-umbrella.h */,
+				EADF28C56A0DA9378F7C8DB941A20136 /* Pods-laravel-echo-swift-OSXTests.debug.xcconfig */,
+				8C90E195A92752DAC941756330447A4E /* Pods-laravel-echo-swift-OSXTests.release.xcconfig */,
+			);
+			name = "Pods-laravel-echo-swift-OSXTests";
+			path = "Target Support Files/Pods-laravel-echo-swift-OSXTests";
+			sourceTree = "<group>";
+		};
+		C9F3ADAA65DE94CD2EED18C55D5498C6 /* Pods-laravel-echo-swift-TVOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEE403151FAB4EDADC0127AF520C9C33 /* Info.plist */,
+				CD27A2CF5FD3FE1B7455465EA88D0FAA /* Pods-laravel-echo-swift-TVOSTests.modulemap */,
+				0C2AE150D2396A8A1E1EF383753CADF3 /* Pods-laravel-echo-swift-TVOSTests-acknowledgements.markdown */,
+				56E1D7B2FA300D087CAB7C8AB307EE48 /* Pods-laravel-echo-swift-TVOSTests-acknowledgements.plist */,
+				33AFD82E9B6B13B8D292E14E40FCE41F /* Pods-laravel-echo-swift-TVOSTests-dummy.m */,
+				8883C60C9EA337F91F1A94EB2118DFFD /* Pods-laravel-echo-swift-TVOSTests-frameworks.sh */,
+				2BDDB8FB77FAE94BA0E142098F1C9261 /* Pods-laravel-echo-swift-TVOSTests-resources.sh */,
+				FA2BA7D4BA885E0A9EAA99EC83B064A5 /* Pods-laravel-echo-swift-TVOSTests-umbrella.h */,
+				A2CC71327022973A34E12DBD802A75F5 /* Pods-laravel-echo-swift-TVOSTests.debug.xcconfig */,
+				8B224019F39E7B32FC642E65E58E13C8 /* Pods-laravel-echo-swift-TVOSTests.release.xcconfig */,
+			);
+			name = "Pods-laravel-echo-swift-TVOSTests";
+			path = "Target Support Files/Pods-laravel-echo-swift-TVOSTests";
+			sourceTree = "<group>";
+		};
+		E9474CE87C6AA9A851AEC24006206CAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C69D6C9B164079D9BD1746B4FB048311 /* iOS */,
+				56FC8954006B1141111A205386DF06CA /* OS X */,
+				4ED4D125C770495764DB12CA29A5C515 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFC25D9E611368A051214B8C94F355F1 /* Pods-laravel-echo-swift-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				769AD61073B9EAAC9CD6013468260180 /* Info.plist */,
+				235947C7D019892FB2BBA727B912F5F8 /* Pods-laravel-echo-swift-iOS.modulemap */,
+				8DDE21DD1759261486867B523E1AEBE9 /* Pods-laravel-echo-swift-iOS-acknowledgements.markdown */,
+				DAA39C9FFE887863F376E1560900FC2F /* Pods-laravel-echo-swift-iOS-acknowledgements.plist */,
+				D9E31C0507DA73D18AB5DBB6CE4A0828 /* Pods-laravel-echo-swift-iOS-dummy.m */,
+				C55A1A3E31D5332B50EF1C6AF3751AEC /* Pods-laravel-echo-swift-iOS-resources.sh */,
+				5579F8ADFA415B9C30608C5004F9C324 /* Pods-laravel-echo-swift-iOS-umbrella.h */,
+				86A8377671A7CDA06338B998F5458DD6 /* Pods-laravel-echo-swift-iOS.debug.xcconfig */,
+				80F3248DC0FB40185B3A00BFC74142C6 /* Pods-laravel-echo-swift-iOS.release.xcconfig */,
+			);
+			name = "Pods-laravel-echo-swift-iOS";
+			path = "Target Support Files/Pods-laravel-echo-swift-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6752F2A14062EEB69624F1F9277A1098 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7016A8A59AC3351729F6335D10041A /* Socket.IO-Client-Swift-OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702E7C3F0B0BA9CC9C6498ABD4E2627E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4F73C39B77D8D25D25E5DE3E55FA2E /* Socket.IO-Client-Swift-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716C7B50BC66FD51685AF944CB385F94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41E7CF13AA02CF1497C419A9D37C81B /* Pods-laravel-echo-swift-OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833B43BD9C616CDA0F2E981507976ED0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D83E05770D39356C5F8C6085B051A6 /* Pods-laravel-echo-swift-TVOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B2EB7BA7A6EC55F85C751AF25C8C67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB5C30F9A6DA5317B7291FC423B6569 /* Pods-laravel-echo-swift-iOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD45E22E357212FC13F8A3BB096880F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C750D95A12D55E2B3A182D4DA93F5C2 /* Pods-laravel-echo-swift-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B951B67D8E2572EA2C2979A18343AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F968F08BDA1CD99A6B96A92ECF69FB1 /* Socket.IO-Client-Swift-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA61DF6CEEBAA5785B818B67A1D6A4A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55AD87712775687215DE856516E249F /* Pods-laravel-echo-swift-OSXTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA66C0458354B86940B522F81373A8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6234DAE70DEA85027A08A1FBCFA3FB67 /* Pods-laravel-echo-swift-TVOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0337620A88F544582ABA1D74A723FA4E /* Pods-laravel-echo-swift-TVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54832C2ED08B3EB257C9C281F81410D1 /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-TVOS" */;
+			buildPhases = (
+				86C61D64C84E0B86282E57AC5B2345C2 /* Sources */,
+				677DA4DFBB943199DBD805A5C12B2905 /* Frameworks */,
+				833B43BD9C616CDA0F2E981507976ED0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0EE5246A6E5CAE7B233E6ADCAB377CB /* PBXTargetDependency */,
+			);
+			name = "Pods-laravel-echo-swift-TVOS";
+			productName = "Pods-laravel-echo-swift-TVOS";
+			productReference = 43E50AFCA43266A6F20C4162F4E1D97E /* Pods_laravel_echo_swift_TVOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0467BAB1D47BD675EE71070E97E14EDD /* Pods-laravel-echo-swift-TVOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC8480CB4DB602DD4C5F94BFF9D840E /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-TVOSTests" */;
+			buildPhases = (
+				26CEEA9B101332AF084DCDDDE3BE5499 /* Sources */,
+				78C2EDB1D09C2266214D587C613FE6E2 /* Frameworks */,
+				FCA66C0458354B86940B522F81373A8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F387B2BC0D1305CCFB97A20C394C008 /* PBXTargetDependency */,
+			);
+			name = "Pods-laravel-echo-swift-TVOSTests";
+			productName = "Pods-laravel-echo-swift-TVOSTests";
+			productReference = 4F8E09F021A3A593206DB0BFDCE92173 /* Pods_laravel_echo_swift_TVOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		116D3F2746F447D77B84472665AAB04D /* Socket.IO-Client-Swift-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D329794940DBD78F4B5FCB0B7C890B9D /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift-iOS" */;
+			buildPhases = (
+				92C8C0C6342DB17F724A8ADAC76F2DDB /* Sources */,
+				B96BEB12D5F4FA5E92B23C0AEB924822 /* Frameworks */,
+				702E7C3F0B0BA9CC9C6498ABD4E2627E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket.IO-Client-Swift-iOS";
+			productName = "Socket.IO-Client-Swift-iOS";
+			productReference = EB320F07426B3C51EF42F8CEF23DDA83 /* SocketIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18C1CE21763F85BF05FE568EECA456A5 /* Pods-laravel-echo-swift-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F71C4658A8A846A4A9968EE41327F06 /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-OSX" */;
+			buildPhases = (
+				D9F2E770207EF77CED255A209E0E1146 /* Sources */,
+				6A9DE9872E82459665B548EEC289AC57 /* Frameworks */,
+				716C7B50BC66FD51685AF944CB385F94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87CCE40C5DD3641A165224FDB4A64D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-laravel-echo-swift-OSX";
+			productName = "Pods-laravel-echo-swift-OSX";
+			productReference = 167B56DE7A8993BADDB846061C30A90B /* Pods_laravel_echo_swift_OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		242B1A2A4FE43E477EC5DBF949C0579C /* Pods-laravel-echo-swift-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4E07191C260D33A1BFDE9D9651B8E0 /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-iOS" */;
+			buildPhases = (
+				96843F9BD5D94E43BD1183C4287CC289 /* Sources */,
+				8207598A4A3F274A6AB31A82BB4FB7E9 /* Frameworks */,
+				9FD45E22E357212FC13F8A3BB096880F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BCE906A9B2C231B5DFE4FF67F8244B /* PBXTargetDependency */,
+			);
+			name = "Pods-laravel-echo-swift-iOS";
+			productName = "Pods-laravel-echo-swift-iOS";
+			productReference = FD988F78334CBD2BA6281ABB14B5DBB2 /* Pods_laravel_echo_swift_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3506CD3A46F488FDAC1EAA24BE5516B1 /* Pods-laravel-echo-swift-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B70ECDD233E06AE535A9EE9E66BA47 /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-OSXTests" */;
+			buildPhases = (
+				8AF857CEC069758DE8A874A81F819D82 /* Sources */,
+				E5FE6B64C46ADE9B50644A530E5BAC5D /* Frameworks */,
+				EA61DF6CEEBAA5785B818B67A1D6A4A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27367ADE4C035898C9321F809214936C /* PBXTargetDependency */,
+			);
+			name = "Pods-laravel-echo-swift-OSXTests";
+			productName = "Pods-laravel-echo-swift-OSXTests";
+			productReference = 058D2BF94C0B2E3E121A66B8B96E9C84 /* Pods_laravel_echo_swift_OSXTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36FC339C88DFBB269C97633CA858D956 /* Pods-laravel-echo-swift-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31E9813683CB4E6409E52AFB4B54C9E /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-iOSTests" */;
+			buildPhases = (
+				D29E292A2AEAC73C396D7493DB526D74 /* Sources */,
+				3B9BFADC4B22C7F001E786FF02120250 /* Frameworks */,
+				95B2EB7BA7A6EC55F85C751AF25C8C67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				620913896A23702DF74FD3A26E45186A /* PBXTargetDependency */,
+			);
+			name = "Pods-laravel-echo-swift-iOSTests";
+			productName = "Pods-laravel-echo-swift-iOSTests";
+			productReference = 0EA86419AAF7F381F2F64E37EE1C49C8 /* Pods_laravel_echo_swift_iOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F345E0804137F3C5E2326E547851418 /* Socket.IO-Client-Swift-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E0594A8731EB89EC8AD1252EE09EC2 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift-OSX" */;
+			buildPhases = (
+				01967DA2603F92D77EDEE3DDCD7EF19D /* Sources */,
+				5BEE537CFC3E7309B8F769E09D584EAC /* Frameworks */,
+				6752F2A14062EEB69624F1F9277A1098 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket.IO-Client-Swift-OSX";
+			productName = "Socket.IO-Client-Swift-OSX";
+			productReference = C804D8CB3EE5B33F1B803E4347000837 /* SocketIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A580AF473C578D29FE87CE250CDAA080 /* Socket.IO-Client-Swift-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD10EDBED483AB9D10F59C54520B0BF /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift-tvOS" */;
+			buildPhases = (
+				4A6F0961DADCF004AF8325A49B4C8CA8 /* Sources */,
+				96C0E4A4D38C0EA6A90F8434F52E3BFC /* Frameworks */,
+				D1B951B67D8E2572EA2C2979A18343AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket.IO-Client-Swift-tvOS";
+			productName = "Socket.IO-Client-Swift-tvOS";
+			productReference = 1A2FC66F06EF10A1C4B9595B49C88C78 /* SocketIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 22C82E67CB9CD5CDB9C4B57CDAE6F2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242B1A2A4FE43E477EC5DBF949C0579C /* Pods-laravel-echo-swift-iOS */,
+				36FC339C88DFBB269C97633CA858D956 /* Pods-laravel-echo-swift-iOSTests */,
+				18C1CE21763F85BF05FE568EECA456A5 /* Pods-laravel-echo-swift-OSX */,
+				3506CD3A46F488FDAC1EAA24BE5516B1 /* Pods-laravel-echo-swift-OSXTests */,
+				0337620A88F544582ABA1D74A723FA4E /* Pods-laravel-echo-swift-TVOS */,
+				0467BAB1D47BD675EE71070E97E14EDD /* Pods-laravel-echo-swift-TVOSTests */,
+				116D3F2746F447D77B84472665AAB04D /* Socket.IO-Client-Swift-iOS */,
+				4F345E0804137F3C5E2326E547851418 /* Socket.IO-Client-Swift-OSX */,
+				A580AF473C578D29FE87CE250CDAA080 /* Socket.IO-Client-Swift-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01967DA2603F92D77EDEE3DDCD7EF19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B35A579733FE6551556BC14BCD0589 /* Socket.IO-Client-Swift-OSX-dummy.m in Sources */,
+				E1B826321AEABC047085EECE1FC0051C /* SocketAckEmitter.swift in Sources */,
+				D19447E60913A43C4826D99B601A7EDB /* SocketAckManager.swift in Sources */,
+				86523174F86C05639454DB533C246856 /* SocketAnyEvent.swift in Sources */,
+				5B05AB485C76637A0311E233C2382853 /* SocketClientManager.swift in Sources */,
+				F9F8039E02BEE2ACFB964E7A3E9CDA8A /* SocketEngine.swift in Sources */,
+				06D6F7CCD70D76E2815ACB52FF72C351 /* SocketEngineClient.swift in Sources */,
+				5F55428FEED91C5D8EBDC2090A420511 /* SocketEnginePacketType.swift in Sources */,
+				5961A6184D5927915FA2A3E4538C1276 /* SocketEnginePollable.swift in Sources */,
+				E1EB43C94E93DEF71D24BBCD31831189 /* SocketEngineSpec.swift in Sources */,
+				025D8D41E8C76F096E35BADF679E373C /* SocketEngineWebsocket.swift in Sources */,
+				039A10B945178142A2637C7424AFE0BA /* SocketEventHandler.swift in Sources */,
+				106255D91161D0CECB271E7A89C6BBFA /* SocketExtensions.swift in Sources */,
+				C48AA2F7BB8D259980BA94EF453286C2 /* SocketIOClient.swift in Sources */,
+				FDD968AFFB2BD410A5217C86AF5631CD /* SocketIOClientConfiguration.swift in Sources */,
+				968654CAE0C77FD2A5DB1B999773D0CF /* SocketIOClientOption.swift in Sources */,
+				45CC3338632A862B6A0EB7780359F7CC /* SocketIOClientSpec.swift in Sources */,
+				74E82769A23DECC2A17DB9588A964749 /* SocketIOClientStatus.swift in Sources */,
+				C21CFBD4AFF4B268E736AE902615B605 /* SocketLogger.swift in Sources */,
+				5E8DBE5A1C62559411BD257E5A9AA7F8 /* SocketPacket.swift in Sources */,
+				CC55392379876D9C024AF68D86712955 /* SocketParsable.swift in Sources */,
+				D65C1199D44F37D959292E0E99C704C0 /* SocketStringReader.swift in Sources */,
+				06E0C93355389C5B6697ADE36AA7167F /* SocketTypes.swift in Sources */,
+				E932BFCDF5A5EA0C992B83B1CBAFA5CB /* SSLSecurity.swift in Sources */,
+				39689A7D428E0EE310FC56D0DEB2756E /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CEEA9B101332AF084DCDDDE3BE5499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009990CAC0EA7BB0010ECE8DE3557832 /* Pods-laravel-echo-swift-TVOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6F0961DADCF004AF8325A49B4C8CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D667B6657AE20775A04E94E4983C1D /* Socket.IO-Client-Swift-tvOS-dummy.m in Sources */,
+				2071016F5641B35DC6370CB67A611D9B /* SocketAckEmitter.swift in Sources */,
+				DB84450A1B48E0796AE955033475EFCA /* SocketAckManager.swift in Sources */,
+				58B99BF4D3B9296E5909E6ECA3D9187F /* SocketAnyEvent.swift in Sources */,
+				89F095615A9D3BC83E076D0F47E60C01 /* SocketClientManager.swift in Sources */,
+				C18FC73857C4140A287758E12D1E74FF /* SocketEngine.swift in Sources */,
+				467B6D7C1B00CCE7FC8E27E590270C81 /* SocketEngineClient.swift in Sources */,
+				548E7D2F9AF33C212B3DE69121A83D75 /* SocketEnginePacketType.swift in Sources */,
+				9C7FF4AFEDC1A1A41B9BC42A3E89718A /* SocketEnginePollable.swift in Sources */,
+				C64B8F27A351D2FBA58AD341D6016A01 /* SocketEngineSpec.swift in Sources */,
+				36BF57BABAFD433DBCA14198507F9126 /* SocketEngineWebsocket.swift in Sources */,
+				C46CFBFA9705E87A47313AA960E6D612 /* SocketEventHandler.swift in Sources */,
+				51470F546AADDD9E9F504B2A0177D79A /* SocketExtensions.swift in Sources */,
+				142F4D9C867EF4B4D6AA336E4B10E0B0 /* SocketIOClient.swift in Sources */,
+				123A0117F31F4C3386C26E388FBA9B73 /* SocketIOClientConfiguration.swift in Sources */,
+				6DEFAAF46FF92194AF0D3E5E326A8FCC /* SocketIOClientOption.swift in Sources */,
+				453DC95F1EAC2E0C397401D26BE090B0 /* SocketIOClientSpec.swift in Sources */,
+				D9DF6EAC05AC904689921C15FBEAE5E4 /* SocketIOClientStatus.swift in Sources */,
+				48C0120AA972DCD1F96FB250BC469B11 /* SocketLogger.swift in Sources */,
+				2031F7A7672890A597A3118197CB3BE6 /* SocketPacket.swift in Sources */,
+				171E92903CBF9EDA088558E3D6223F29 /* SocketParsable.swift in Sources */,
+				17BF6FEB159BE9A3EABB8F975F806ECD /* SocketStringReader.swift in Sources */,
+				4416936391A3A714C92E7A42C98893AF /* SocketTypes.swift in Sources */,
+				BA8EC18AF70B9705AFF170C0D41E5503 /* SSLSecurity.swift in Sources */,
+				D3554B27D3819DD531676DCF2A92F400 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C61D64C84E0B86282E57AC5B2345C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E3D4E922AEB9197B366A1BB13247C /* Pods-laravel-echo-swift-TVOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF857CEC069758DE8A874A81F819D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EE00E40B78B7D14C060FDC053C339F /* Pods-laravel-echo-swift-OSXTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C8C0C6342DB17F724A8ADAC76F2DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCE28C1B0BCE1C96ACABA3E6B4982CC /* Socket.IO-Client-Swift-iOS-dummy.m in Sources */,
+				A88DC06736D82F3224E8C4D97909B8EB /* SocketAckEmitter.swift in Sources */,
+				7FABDCD06ABF5E844AD64B98930E8EDE /* SocketAckManager.swift in Sources */,
+				0904568C4AC0A7A308D9F7E45A17589A /* SocketAnyEvent.swift in Sources */,
+				C658BAB971AE18B027D1BAFDA2CCA97E /* SocketClientManager.swift in Sources */,
+				021AAD212999D2AC87CDB7467FEF7D20 /* SocketEngine.swift in Sources */,
+				0DC7C8C4398AF359DD6EF166434BD5A4 /* SocketEngineClient.swift in Sources */,
+				485CA4F04BEF9753ED5A2120F7C73156 /* SocketEnginePacketType.swift in Sources */,
+				27CBE654EAFE15DEEEA7A7114711E6CF /* SocketEnginePollable.swift in Sources */,
+				953F1C9E766248845FC2FD93064E9DFD /* SocketEngineSpec.swift in Sources */,
+				1491874D2394F2B198858DEDFE93C70E /* SocketEngineWebsocket.swift in Sources */,
+				FAE792C09DF8B0CE1A9F64CEF9E5DEF1 /* SocketEventHandler.swift in Sources */,
+				25350C2B764E794A9A24E31109657B77 /* SocketExtensions.swift in Sources */,
+				E587D15B76D45A34769F51D5E18640CC /* SocketIOClient.swift in Sources */,
+				D8EF6DA6E27EF77784C04CB865B91EB9 /* SocketIOClientConfiguration.swift in Sources */,
+				CE38B67606DB4E9B1D3873CAE23E0215 /* SocketIOClientOption.swift in Sources */,
+				240C0798E24920829C77F0D9F4472342 /* SocketIOClientSpec.swift in Sources */,
+				33802441C364562291BD1308F9C61AE8 /* SocketIOClientStatus.swift in Sources */,
+				F9F021AAAB90285FE0D7FDB3A1561369 /* SocketLogger.swift in Sources */,
+				354EE18B7753F2F58828152862DBEDB7 /* SocketPacket.swift in Sources */,
+				A8506206367024C5EEC3C8CAF8A0FE0A /* SocketParsable.swift in Sources */,
+				673814E045EC92EDE098EDD53892D770 /* SocketStringReader.swift in Sources */,
+				C98CFBA3F822586DD7E04D94F695C319 /* SocketTypes.swift in Sources */,
+				FF4D872E5A1F900FD4DFDAED07F868FB /* SSLSecurity.swift in Sources */,
+				32837731665987BDD2DA7B1C0C6BB2A2 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96843F9BD5D94E43BD1183C4287CC289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E32FD1CC07C9E8B56C076DD48F4F46 /* Pods-laravel-echo-swift-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29E292A2AEAC73C396D7493DB526D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BFF1D6C8640B9D7B1F9B8EE90F737D /* Pods-laravel-echo-swift-iOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F2E770207EF77CED255A209E0E1146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C956D6E2AC000557BDDDC9D1178A495 /* Pods-laravel-echo-swift-OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F387B2BC0D1305CCFB97A20C394C008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift-tvOS";
+			target = A580AF473C578D29FE87CE250CDAA080 /* Socket.IO-Client-Swift-tvOS */;
+			targetProxy = F0D3FE081F3C55F66B02ECFF0A0193F9 /* PBXContainerItemProxy */;
+		};
+		27367ADE4C035898C9321F809214936C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift-OSX";
+			target = 4F345E0804137F3C5E2326E547851418 /* Socket.IO-Client-Swift-OSX */;
+			targetProxy = 78D2C76BFA27D914EE2F6B3F3020D75E /* PBXContainerItemProxy */;
+		};
+		620913896A23702DF74FD3A26E45186A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift-iOS";
+			target = 116D3F2746F447D77B84472665AAB04D /* Socket.IO-Client-Swift-iOS */;
+			targetProxy = D2F0556D1690D65F423A7AA9A9A0ED26 /* PBXContainerItemProxy */;
+		};
+		B0EE5246A6E5CAE7B233E6ADCAB377CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift-tvOS";
+			target = A580AF473C578D29FE87CE250CDAA080 /* Socket.IO-Client-Swift-tvOS */;
+			targetProxy = 51A89DAD732DA129E4DEF58344D48790 /* PBXContainerItemProxy */;
+		};
+		E87CCE40C5DD3641A165224FDB4A64D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift-OSX";
+			target = 4F345E0804137F3C5E2326E547851418 /* Socket.IO-Client-Swift-OSX */;
+			targetProxy = 9CE159D2FF455995409E4A73F37F4C4D /* PBXContainerItemProxy */;
+		};
+		F8BCE906A9B2C231B5DFE4FF67F8244B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift-iOS";
+			target = 116D3F2746F447D77B84472665AAB04D /* Socket.IO-Client-Swift-iOS */;
+			targetProxy = 5DDE5A71C1D5E230629824728402F8E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09B7C38F6FFFB09FE824405005CDEEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B92308B0509213175BF8EF9909658CF /* Pods-laravel-echo-swift-OSX.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-OSX/Pods-laravel-echo-swift-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_OSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A5F57A295F1FB449422E2EB2CAFA083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0547335F55AD9D760F66FE32932513C9 /* Pods-laravel-echo-swift-TVOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-TVOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-TVOS/Pods-laravel-echo-swift-TVOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_TVOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		205A4707EE10774ED682178526ABE76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FAE900DF73D2299732A154F7E70A07 /* Socket.IO-Client-Swift-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift-iOS/Socket.IO-Client-Swift-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift-iOS/Socket.IO-Client-Swift-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B2A0E24735B1F19CC518603B65CBACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E9C64439318B72F2891765BFA4296F /* Pods-laravel-echo-swift-OSX.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-OSX/Pods-laravel-echo-swift-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_OSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BFE32BBD26E371B6F977305B37F2EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F3248DC0FB40185B3A00BFC74142C6 /* Pods-laravel-echo-swift-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-iOS/Pods-laravel-echo-swift-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DB29D63693163E22911A5EAFB13195D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078014351889B25580A7022CCA4B5DF5 /* Pods-laravel-echo-swift-iOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-iOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-iOSTests/Pods-laravel-echo-swift-iOSTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_iOSTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42ACC29CAC3CD37B3F33D2338FEC1974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB753018ACDA693CDB27637CA316A4E3 /* Socket.IO-Client-Swift-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift-tvOS/Socket.IO-Client-Swift-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift-tvOS/Socket.IO-Client-Swift-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A12CF94FCCBF42BE1BB35898602389B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADF28C56A0DA9378F7C8DB941A20136 /* Pods-laravel-echo-swift-OSXTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-OSXTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-OSXTests/Pods-laravel-echo-swift-OSXTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_OSXTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B307EFF4EDBCA9F7C0A276872A83C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9728F4F6C65F3B213F248C651EDF2FF8 /* Socket.IO-Client-Swift-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift-OSX/Socket.IO-Client-Swift-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift-OSX/Socket.IO-Client-Swift-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6056301FF612C1AFE209E0A9E88D1250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CC71327022973A34E12DBD802A75F5 /* Pods-laravel-echo-swift-TVOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-TVOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-TVOSTests/Pods-laravel-echo-swift-TVOSTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_TVOSTests;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66F53925F325CEBFC432EEE709B6A642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9685297F5D0DC4D44BBA05C77A93CC63 /* Pods-laravel-echo-swift-TVOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-TVOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-TVOS/Pods-laravel-echo-swift-TVOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_TVOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		699EF45CF838745F416DB4C3A68A2F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A8377671A7CDA06338B998F5458DD6 /* Pods-laravel-echo-swift-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-iOS/Pods-laravel-echo-swift-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F766DE380AB1BBC02BB45ECB2449ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		74A5827C8607959B2AD3EE572C3F81EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9728F4F6C65F3B213F248C651EDF2FF8 /* Socket.IO-Client-Swift-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift-OSX/Socket.IO-Client-Swift-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift-OSX/Socket.IO-Client-Swift-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95051310DEC4F1202577BD732468E0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FAE900DF73D2299732A154F7E70A07 /* Socket.IO-Client-Swift-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift-iOS/Socket.IO-Client-Swift-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift-iOS/Socket.IO-Client-Swift-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A23C7126B30BACD322A05FC000B89AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5611F665BE488F83D6CD651257BA4428 /* Pods-laravel-echo-swift-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-iOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-iOSTests/Pods-laravel-echo-swift-iOSTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_iOSTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FA19068626D4964D4F7C7E362E83503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB40E36237F633669F3ABD7766DA6151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C90E195A92752DAC941756330447A4E /* Pods-laravel-echo-swift-OSXTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-OSXTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-OSXTests/Pods-laravel-echo-swift-OSXTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_OSXTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAD5495C80A2B38DFCEB2BB1BBCD127A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB753018ACDA693CDB27637CA316A4E3 /* Socket.IO-Client-Swift-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift-tvOS/Socket.IO-Client-Swift-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift-tvOS/Socket.IO-Client-Swift-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC50EF788E941895FB79A430F133600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B224019F39E7B32FC642E65E58E13C8 /* Pods-laravel-echo-swift-TVOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-laravel-echo-swift-TVOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-laravel-echo-swift-TVOSTests/Pods-laravel-echo-swift-TVOSTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_laravel_echo_swift_TVOSTests;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F766DE380AB1BBC02BB45ECB2449ECB /* Debug */,
+				9FA19068626D4964D4F7C7E362E83503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B70ECDD233E06AE535A9EE9E66BA47 /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A12CF94FCCBF42BE1BB35898602389B /* Debug */,
+				DB40E36237F633669F3ABD7766DA6151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E0594A8731EB89EC8AD1252EE09EC2 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B307EFF4EDBCA9F7C0A276872A83C92 /* Debug */,
+				74A5827C8607959B2AD3EE572C3F81EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54832C2ED08B3EB257C9C281F81410D1 /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-TVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F53925F325CEBFC432EEE709B6A642 /* Debug */,
+				1A5F57A295F1FB449422E2EB2CAFA083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F71C4658A8A846A4A9968EE41327F06 /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B7C38F6FFFB09FE824405005CDEEF2 /* Debug */,
+				2B2A0E24735B1F19CC518603B65CBACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4E07191C260D33A1BFDE9D9651B8E0 /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699EF45CF838745F416DB4C3A68A2F67 /* Debug */,
+				2BFE32BBD26E371B6F977305B37F2EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D329794940DBD78F4B5FCB0B7C890B9D /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95051310DEC4F1202577BD732468E0F5 /* Debug */,
+				205A4707EE10774ED682178526ABE76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD10EDBED483AB9D10F59C54520B0BF /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ACC29CAC3CD37B3F33D2338FEC1974 /* Debug */,
+				EAD5495C80A2B38DFCEB2BB1BBCD127A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC8480CB4DB602DD4C5F94BFF9D840E /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-TVOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6056301FF612C1AFE209E0A9E88D1250 /* Debug */,
+				EC50EF788E941895FB79A430F133600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31E9813683CB4E6409E52AFB4B54C9E /* Build configuration list for PBXNativeTarget "Pods-laravel-echo-swift-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A23C7126B30BACD322A05FC000B89AB /* Debug */,
+				2DB29D63693163E22911A5EAFB13195D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

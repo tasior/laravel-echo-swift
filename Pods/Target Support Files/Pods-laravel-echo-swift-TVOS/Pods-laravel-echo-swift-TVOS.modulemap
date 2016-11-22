@@ -1,0 +1,6 @@
+framework module Pods_laravel_echo_swift_TVOS {
+  umbrella header "Pods-laravel-echo-swift-TVOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

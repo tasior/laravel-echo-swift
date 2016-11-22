@@ -1,7 +1,7 @@
 import Foundation
 
 protocol Channel {
-    var options : Any { get set }
+    var options : Options { get set }
     
     func listen(event: String, callback: ()) -> Channel
 }

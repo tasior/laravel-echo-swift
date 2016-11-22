@@ -1,0 +1,6 @@
+framework module Pods_laravel_echo_swift_OSXTests {
+  umbrella header "Pods-laravel-echo-swift-OSXTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

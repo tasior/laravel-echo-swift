@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "laravel-echo-swift"
   s.module_name  = "LaravelEcho"
   s.version      = "0.0.1"
-  s.summary      = "A short description of laravel-echo-swift."
+  s.summary      = "Laravel Echo library for swift."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   DESC
+                Laravel Echo Library for swift.
+		DESC
 
   s.homepage     = "https://github.com/tasior/laravel-echo-swift"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -133,6 +134,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "Socket.IO-Client-Swift", "~> 8.1.2"
 
 end
