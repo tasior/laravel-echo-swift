@@ -9,7 +9,7 @@ public struct Echo {
     }
 }
 
-extension Echo {
+public extension Echo {
     mutating func listen(channel: String, event: String, callback: ()) -> Channel {
         return connector.listen(channel: channel, event: event, callback: callback)
     }

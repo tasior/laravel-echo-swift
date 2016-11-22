@@ -1,7 +1,7 @@
 import Foundation
 import SocketIO
 
-struct SocketIoConnector : Connector {
+public struct SocketIoConnector : Connector {
     
     var options: Options
     

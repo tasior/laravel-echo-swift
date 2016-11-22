@@ -1,7 +1,7 @@
 import Foundation
 import SocketIO
 
-struct SocketIoChannel: Channel {
+public struct SocketIoChannel: Channel {
     
     var socket: SocketIOClient
     

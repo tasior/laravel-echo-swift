@@ -1,10 +1,10 @@
 import Foundation
 
-enum Connectors {
+public enum Connectors {
     case socketio
 }
 
-struct Options {
+public struct Options {
     var auth:[String:[String:String]]
     var authEndpoint: String
     var connector: Connectors
@@ -31,7 +31,7 @@ struct Options {
     
 }
 
-protocol Connector {
+public protocol Connector {
     var options : Options { get set }
     
     init(options: Options)
@@ -45,7 +45,7 @@ protocol Connector {
     func socketId() -> String
 }
 
-struct ConnectorFactory {
+public struct ConnectorFactory {
     
     static func create(type: Connectors, options: Options) -> Connector {
         switch type {
