@@ -7,7 +7,7 @@ public struct SocketIoChannel: Channel {
     
     var name: String
     
-    var options: Options
+    public var options: Options
     
     init(socket: SocketIOClient, name: String, options: Options) {
         self.socket = socket
@@ -27,7 +27,7 @@ public struct SocketIoChannel: Channel {
         socket.emit("unsubscribe", ["channel": name, "auth": options.auth ])
     }
     
-    func listen(event: String, callback: ()) -> Channel {
+    public func listen(event: String, callback: ()) -> Channel {
         return self;
     }
     
